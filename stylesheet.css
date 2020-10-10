@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    min-width: 1500px;
+    overflow: scroll;
+}
+
+.top {
+  display: flex;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.title {
+  width: 50%;
+  margin-top: 350px;
+  margin-left: 150px;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  letter-spacing: 5px;
+}
+
+.heading p {
+  margin-bottom: 20px;
+}
+
+.description{
+    font-size: 12px;
+}
+
+.description p {
+  margin-bottom: 10px;
+}
+
+.top img {
+  width: 50%;
+}
+
+
+.product, .recommendation {
+  margin: 0 auto;
+  padding: 80px 160px;
+}
+
+.product {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+
+.product-heading, .recommendation-heading {
+  font-size: 20px;
+  color: #808080;
+  margin-bottom: 40px;
+}
+
+.countries {
+  color: white;
+}
+
+.top-section {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.ireland {
+  width: 50%;
+  margin-right: 15px;
+  position: relative;
+}
+
+.ireland img {
+  width: 100%;
+
+}
+
+.scotland {
+  width: 50%;
+  margin-left: 15px;
+  position: relative;
+}
+
+.scotland img {
+  width: 100%;
+}
+
+.middle-section {
+  margin-bottom: 30px;
+}
+.japan {
+  position: relative;
+}
+
+.japan img {
+  width: 100%;
+}
+
+.bottom-section {
+  display: flex;
+}
+
+.america {
+  width: 50%;
+  margin-right: 15px;
+  position: relative;
+}
+
+.america img {
+  width: 100%;
+}
+
+.canada {
+  width: 50%;
+  margin-left: 15px;
+  position: relative;
+  color: black;
+}
+
+.canada img {
+  width: 100%;
+  position: relative;
+}
+
+.country-name {
+  position: absolute;
+  top: 465px;
+  left: 30px;
+  letter-spacing: 2px;
+}
+
+.country-description {
+  position: absolute;
+  top: 500px;
+  left: 30px;
+  font-size: 7px;
+}
+
+.japan .country-name {
+  position: absolute;
+  top: 540px;
+  left: 30px;
+  letter-spacing: 2px;
+}
+
+.japan .country-description {
+  position: absolute;
+  top: 580px;
+  left: 30px;
+  font-size: 7px;
+}
+
+.whiskies {
+  display: flex;
+}
+
+.whisky {
+  width: 50%;
+}
+
+.whisky img{
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.whisky p{
+  color: #666;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.ballantine {
+  margin-right: 15px;
+}
+
+.jackdaniels {
+  margin-left: 15px;
+}
+
+.footer {
+  background-image: url(footer.jpg);
+  height: 300px;
+  padding: 110px;
+}
+
+.footer-logo {
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+.footer-logo p {
+  margin: 20px;
+}
